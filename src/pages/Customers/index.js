@@ -10,26 +10,25 @@ import Title from '../../components/Title';
 export default function Customers() {
   const [nomeFantasia, setNomeFantasia] = useState('');
   const [cnpj, setCnpj] = useState('');
-  const [endereco, setEndereco] = useState('');
-  const [genero, setGenero] = useState('');
+  //refactoring
+  //const [endereco, setEndereco] = useState('');
+  //const [genero, setGenero] = useState('');
 
 
   async function handleAdd(e){
     e.preventDefault();
 
-    if(nomeFantasia && cnpj && endereco !== '' && genero !== ''){
+    if(nomeFantasia && cnpj ){
       await firebase.firestore().collection('customers')
       .add({
         nomeFantasia: nomeFantasia,
         cnpj: cnpj,
-        endereco: endereco,
-        genero: genero,
+        
       })
       .then(()=>{
         setNomeFantasia('');
         setCnpj('');
-        setEndereco('');
-        setGenero('');
+        
 //after saving we will clean the txt
         toast.info('Employee data saved with success!!');
       })
