@@ -8,8 +8,10 @@ Open the project directory with VSCode.
 The dir is chamadas-projeto master. Open the terminal in VSCode.
 Now you can run:
 npm install
+
 Then you can run:
 npm start
+
 It will star a development server and you will be able to see the app.
 OBS: You must have NODE.js installed in your machine.
 
