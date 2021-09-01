@@ -35,6 +35,12 @@ You did not asked for some data (like Gender) to be displayed on the main list.
 However, I have displayed it to show
 that the data is really being saved in the database.
 
+The Firebase service is linked to the email: nutcache.nutcache@gmail.com 
+
+It can be used to audit the database "directly"
+
+
+
 #### Additional commentaries
 
 None for now.
