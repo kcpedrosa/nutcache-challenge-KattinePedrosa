@@ -5,7 +5,8 @@ This project was done to solve a Technical Challenge
 ## How to run it
 
 Open the project directory with VSCode.
-The dir is chamadas-projeto master. Open the terminal in VSCode.
+The dir is nutcache-challenge-KattinePedrosa. Open the terminal in VSCode.
+
 Now you can run:
 npm install
 
@@ -37,7 +38,7 @@ that the data is really being saved in the database.
 
 The Firebase service is linked to the email: nutcache.nutcache@gmail.com 
 
-It can be used to audit the database "directly"
+It can be used to audit the database "directly".
 
 
 
